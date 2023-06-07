@@ -1,0 +1,30 @@
+@import url("../index.css");
+
+header {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  height: fit-content;
+  padding: 1rem 0;
+  align-items: center;
+}
+
+header nav {
+  display: flex;
+  gap: 2.5rem;
+}
+
+nav a {
+  font-size: clamp(0.5rem, 4vw, 1rem);
+  font-weight: 500;
+}
+header .logo {
+  font-size: clamp(1rem, 5vw, 1.2rem);
+  font-weight: 900;
+}
+
+header a {
+  text-decoration: none;
+  color: var(--dark-accent);
+}

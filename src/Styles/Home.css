@@ -1,0 +1,28 @@
+@import url("../index.css");
+
+.container {
+  overflow: hidden;
+  height: 90vh;
+  width: 80vw;
+  margin: 0 auto;
+}
+@media (max-width: 1016px) {
+  .container {
+    width: 100%;
+  }
+}
+.home-container {
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rebeccapurple;
+}
+.footer {
+  display: flex;
+  align-self: flex-end;
+  width: 100%;
+  background-color: grey;
+}
