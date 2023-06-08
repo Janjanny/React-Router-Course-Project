@@ -33,6 +33,12 @@ header a {
   color: var(--dark-accent);
 }
 
+.active {
+  font-weight: 800;
+  color: var(--main-color);
+  transition: all 0.3s ease;
+}
+
 @media (max-width: 1025px) {
   header {
     width: 100%;
