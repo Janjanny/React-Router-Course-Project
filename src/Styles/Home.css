@@ -1,28 +1,87 @@
 @import url("../index.css");
 
 .container {
-  overflow: hidden;
-  height: 90vh;
-  width: 80vw;
+  height: 100vh;
+  width: 80%;
   margin: 0 auto;
 }
-@media (max-width: 1016px) {
-  .container {
-    width: 100%;
-  }
-}
+
 .home-container {
+  position: relative;
+  background-image: url("../assets/images/pexels-eberhard-grossgasteiger-1287145.jpg");
+  background-size: cover;
+  background-position: center center;
   width: 100%;
   margin: 0 auto;
-  height: 100%;
+  height: 90%;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rebeccapurple;
+  flex-direction: column;
+  background-color: var(--dark-accent);
 }
-.footer {
-  display: flex;
-  align-self: flex-end;
+
+.home-container .filter {
+  position: absolute;
+  z-index: 1;
+  background-color: var(--dark-shades);
   width: 100%;
-  background-color: grey;
+  height: 100%;
+  opacity: 0.5;
+}
+
+.home-container .content {
+  position: absolute;
+  z-index: 2;
+  text-align: left;
+  color: #eee;
+  padding: 0 2rem;
+}
+
+.content .text .title {
+  font-size: clamp(1.5rem, 8vw, 2.5rem);
+  line-height: 1;
+}
+
+.content .text .some-text {
+  margin-top: 0.5rem;
+  font-size: clamp(0.7rem, 2.8vw, 1rem);
+}
+
+.button {
+  color: #eee;
+  background-color: var(--main-color);
+  border: none;
+  width: 100%;
+  margin-top: 2rem;
+  padding: 0.5rem 1.5rem;
+  font-size: clamp(0.7rem, 4vw, 1rem);
+  font-weight: 500;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: var(--dark-accent);
+  transition: all 0.3s ease;
+}
+
+.footer {
+  width: 100%;
+  height: 10%;
+  background-color: var(--dark-shades);
+  color: var(--light-shade);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer p {
+  font-weight: 200;
+  font-size: clamp(0.5rem, 3vw, 1rem);
+}
+
+@media (max-width: 1025px) {
+  .container {
+    width: 100%;
+  }
 }

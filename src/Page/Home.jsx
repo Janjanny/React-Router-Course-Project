@@ -16,12 +16,12 @@ function Home() {
                 the perfect van to make your perfect road trip.
               </p>
             </div>
-            <button>Find your van</button>
-            <div className="footer">
-              <p>&copy; 2022 #VANLIFE</p>
-            </div>
+            <button className="button">Find your van</button>
           </div>
         </section>
+        <div className="footer">
+          <p>&copy; 2022 #VANLIFE</p>
+        </div>
       </div>
     </>
   );

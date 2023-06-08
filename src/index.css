@@ -14,3 +14,7 @@
   --dark-accent: #516ba8;
   --dark-shades: #19233f;
 }
+
+body {
+  background-color: var(--light-shade);
+}

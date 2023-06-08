@@ -1,0 +1,55 @@
+.about-section {
+  height: 100%;
+}
+
+.about-section .image-container {
+  width: 100%;
+  height: 30vh;
+  background: url("../assets/images/travel-van.jpg") no-repeat center/cover;
+}
+
+.text-container {
+  margin-top: 2rem;
+  padding: 0 1.5rem;
+  color: var(--dark-shades);
+}
+
+.text-container .title {
+  font-size: clamp(1.2rem, 5vw, 2rem);
+  line-height: 1.2;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+}
+
+.container .text-container p:first-of-type {
+  margin-bottom: 1rem;
+}
+
+.container .text-container p {
+  font-size: clamp(0.5rem, 3vw, 1rem);
+}
+
+.colored-div {
+  background-color: var(--light-accent);
+  padding: 2.2rem;
+  margin: 3rem 0;
+  border-radius: 10px;
+}
+
+.colored-div h1 {
+  font-weight: 800;
+  font-size: clamp(1rem, 4vw, 1.6rem);
+  line-height: 1.2;
+}
+
+.about-btn {
+  color: #eee;
+  background-color: var(--dark-shades);
+  border: none;
+  margin-top: 1rem;
+  padding: 0.5rem 1.5rem;
+  font-size: clamp(0.7rem, 2.8vw, 1rem);
+  font-weight: 500;
+  border-radius: 5px;
+  cursor: pointer;
+}
