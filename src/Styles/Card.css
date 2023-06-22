@@ -1,0 +1,6 @@
+@import url("../index.css");
+
+.card-wrapper {
+  background-color: #eee;
+  width: fit-content;
+}

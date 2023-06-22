@@ -1,0 +1,43 @@
+@import url("../index.css");
+
+.vans-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 5rem 2rem;
+}
+
+.vans-container .title {
+  font-size: clamp(1.8rem, 5vw, 2rem);
+  color: var(--dark-shades);
+}
+
+.vans-container .filters {
+  display: flex;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+.filters .filter-btn {
+  font-size: 0.85rem;
+  padding: 0.5rem 1.3rem;
+  border-radius: 5px;
+  color: var(--light-shade);
+  background-color: var(--light-accent);
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+
+.filters .clr-fltr-btn {
+  background: transparent;
+  border: none;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-left: 0.5rem;
+}
+
+@media (max-width: 1025px) {
+  .vans-container {
+    width: 100%;
+  }
+}
