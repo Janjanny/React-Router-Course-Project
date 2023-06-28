@@ -1,4 +1,5 @@
 import "../Styles/Card.css";
+import { vansImages } from "../data";
 
 function Card({ img, category, name, price }) {
   return (
@@ -10,7 +11,7 @@ function Card({ img, category, name, price }) {
         <h1>{name}</h1>
         <p>
           ${price}
-          <span>/day</span>
+          <span> /day</span>
         </p>
       </div>
       <div className="category">{category}</div>

@@ -1,4 +1,4 @@
-import { filters } from "../data";
+import { filters, vansImages } from "../data";
 import { Card } from "../Components";
 import "../Styles/Vans.css";
 
@@ -15,9 +15,10 @@ function Vans() {
           ))}
           <button className="clr-fltr-btn">Clear filters</button>
         </div>
-
         <div className="card-container">
-          <Card></Card>
+          {vansImages.map((van, index) => (
+            <Card {...van} key={index} />
+          ))}
         </div>
       </div>
     </>

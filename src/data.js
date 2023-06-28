@@ -4,31 +4,31 @@ export const vansImages = [
   {
     img: "src/assets/images/van%201.jpg",
     name: "The Cruiser",
-    tag: "luxury",
+    category: "luxury",
     price: 120,
   },
   {
     img: "src/assets/images/van%202.jpg",
     name: "Dreamfinder",
-    tag: "Simple",
+    category: "Simple",
     price: 65,
   },
   {
     img: "src/assets/images/van%203.jpg",
     name: "Beach Bum",
-    tag: "Rugged",
+    category: "Rugged",
     price: 80,
   },
   {
     img: "src/assets/images/van%204.jpg",
     name: "Modest Explorer",
-    tag: "Simple",
+    category: "Simple",
     price: 60,
   },
   {
     img: "src/assets/images/van%205.jpg",
     name: "Green Wonder",
-    tag: "Rugged",
+    category: "Rugged",
     price: 70,
   },
 ];

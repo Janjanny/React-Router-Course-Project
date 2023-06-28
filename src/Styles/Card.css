@@ -1,6 +1,46 @@
 @import url("../index.css");
 
 .card-wrapper {
-  background-color: #eee;
+  max-width: 100%;
+}
+
+.card-wrapper .img-container {
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.img-container img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-wrapper .name-price {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name-price h1,
+.name-price p {
+  font-size: clamp(1rem, 5vw, 1.2rem);
+  font-weight: 600;
+  color: var(--dark-shades);
+}
+
+.name-price span {
+  font-size: clamp(0.7rem, 5vw, 0.8rem);
+  font-weight: 500;
+  display: block;
+  margin-left: 0.3rem;
+}
+
+.category {
+  background-color: var(--dark-shades);
   width: fit-content;
+  color: white;
+  padding: 0.3rem 1rem;
+  border-radius: 5px;
 }
